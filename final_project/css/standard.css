@@ -16,7 +16,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	padding: 1em;
+	padding: 0;
 	color: white;
 	background: rgba(235, 86, 53, 0.5);
 }
@@ -28,11 +28,12 @@ header {
 
 nav {
 	margin-right: 10vw;
+    margin-top: 20px;
 }
 
 nav > a {
-	margin-left: 5vh;
-	font-size: 1.5em;
+    margin-left: 5vh;
+	font-size: 2em;
 	color: white;
 	text-decoration: none;
 }
